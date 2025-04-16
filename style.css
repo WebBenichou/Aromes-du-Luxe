@@ -1,0 +1,44 @@
+/* Cart produit */
+.cartDropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Nav Bar */
+.bg-nav {
+    background-color: #222222;
+    color: #9A7C4F;
+    border: 3px solid #9A7C4F;
+    border-radius: 0 30px 0 30px;
+}
+
+/* Button*/
+.btn {
+    background-color: #9A7C4F;
+    color: #DDDDDD;
+}
+
+/* Cart icon*/
+.cart-icon {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.cart-icon:hover {
+    color: var(--color-soft-gold);
+}
+
+/* Modal */
+.modal-header {
+    background-color: #222222;
+    color: #9A7C4F;
+}
